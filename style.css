@@ -1,0 +1,1004 @@
+html,body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/webbg.jpg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+  overflow: hidden;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .slogan, img{
+    position:relative;
+    width: 10vw;
+    max-width: 120px;
+   left: 17.5vw;
+   top: 1vh;
+  }
+ @font-face {
+  font-family: modern;
+  src: url(fonts/modern.ttf);
+ }
+ @font-face {
+  font-family: ps;
+  src: url(fonts/ps.ttf);
+ }
+ @font-face {
+  font-family: pc;
+  src: url(fonts/pc.ttf);
+ }
+ @font-face {
+  font-family: xbox;
+  src: url(fonts/x.ttf);
+ }
+ @font-face {
+  font-family: switch;
+  src: url(fonts/x.ttf);
+ }
+ @font-face {
+  font-family: price;
+  src: url(fonts/price.ttf);
+ }
+ @font-face {
+  font-family: christmas;
+  src: url(fonts/christmas.ttf);
+ }
+
+ 
+  h1{
+    font-family:modern;
+   left: 41%;
+   position: relative;
+   top:-8.5vh;
+   color: #84DCC6;
+   font-size: 55px;
+  }
+  h1 a:hover{
+    color: #64a595;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #351431;
+    position: relative;
+    top: -5vh;
+    width: 50%;
+    left:25%;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  li {
+    display:inline-block;
+    
+  }
+  
+  li a {
+    display: block;
+    color: #84DCC6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+  }
+  li a:hover{
+    background-color: #980B88;
+  }
+  a {
+    color: #84DCC6;
+  }
+  a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none;}
+
+.god{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 30%;
+  top: 20%;
+  
+}
+.god, img{
+  border-radius: 20px;
+}
+.pc{
+  float: left;
+  font-family: ps;
+  font-size: 120%;
+}
+.ps1{
+  float: left;
+  font-family: ps;
+  font-size: 120%;
+  background-color: #980B88;
+}
+
+///////x{
+  float: inline-start;
+  margin-left: 34vh;
+ font-family: xbox;
+ font-size: 120%;
+}
+.x1{
+
+ margin-left: 46%;
+ font-family: xbox;
+ font-size: 120%;
+ background-color: #980B88;
+}
+.switch{
+  float: right;
+  font-family: switch;
+  font-size: 120%;
+}
+.switch1{
+  float: right;
+  font-family: switch;
+  font-size: 120%;
+  background-color: #980B88;
+}
+
+.sale{
+  width: 65%;
+  height: 500px;
+  top: 25%;
+  left:17%;
+}
+.spider{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 18%;
+  top: 20%;
+  
+}
+.spider, img{
+  border-radius: 20px;
+}
+.miles{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 43%;
+  top: 20%;
+  
+}
+.miles, img{
+  border-radius: 20px;
+}
+.ghost{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 18%;
+  top: 40%;
+  
+}
+.ghost, img{
+  border-radius: 20px;
+}
+.west{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 30%;
+  top: 40%;
+  
+}
+.west, img{
+  border-radius: 20px;
+}
+.red{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 43%;
+  top: 40%;
+  
+}
+.red, img{
+  border-radius: 20px;
+}
+.blood{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 56%;
+  top: 20%;
+  
+}
+.blood, img{
+  border-radius: 20px;
+}
+.mortal{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 56%;
+  top: 40%;
+  
+}
+.mortal, img{
+  border-radius: 20px;
+}
+.gta{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 18%;
+  top: 60%;
+  
+}
+.gta, img{
+  border-radius: 20px;
+}
+.ring{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 30%;
+  top: 60%;
+  
+}
+.ring, img{
+  border-radius: 20px;
+}
+.war{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 43%;
+  top: 60%;
+  
+}
+.war, img{
+  border-radius: 20px;
+}
+.warfare{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 56%;
+  top: 60%;
+  
+}
+.warfare, img{
+  border-radius: 20px;
+}
+
+.spiderp{
+position: absolute;
+left: 30%;
+top: 33%;
+}
+ p{
+width: 90px;
+height: 20px;
+border-style: solid;
+background-color: #980B88;
+border-color: #980B88;
+text-align: center;
+border-radius: 20px;
+font-family: price;
+font-size:110%;
+color: #fff;
+}
+.godp{
+  position: absolute;
+left: 42%;
+top: 33%;
+}
+.milesp{
+  position: absolute;
+left: 55%;
+top: 33%;
+}
+.bloodp{
+  position: absolute;
+left: 68%;
+top: 33%;
+}
+.ghostp{
+  position: absolute;
+left: 30%;
+top: 53%;
+}
+.westp{
+  position: absolute;
+left: 42%;
+top: 53%;
+}
+.redp{
+  position: absolute;
+left: 55%;
+top: 53%;
+}
+.mortalp{
+  position: absolute;
+left: 68%;
+top: 53%;
+}
+.gtap{
+  position: absolute;
+left: 30%;
+top: 73%;
+}
+.eldenp{
+  position: absolute;
+left: 42%;
+top: 73%;
+}
+.warp{
+  position: absolute;
+left: 55%;
+top: 73%;
+}
+.warfarep{
+  position: absolute;
+left: 68%;
+top: 73%;
+}
+.flight{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 18%;
+  top: 20%;
+  
+}
+.flight, img{
+  border-radius: 20px;
+}
+.ori{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 30%;
+  top: 20%;
+  
+}
+.ori, img{
+  border-radius: 20px;
+}
+.mine{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 43%;
+  top: 20%;
+  
+}
+.mine, img{
+  border-radius: 20px;
+}
+.halo{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 56%;
+  top: 20%;
+  
+}
+.halo, img{
+  border-radius: 20px;
+}
+.saint{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 18%;
+  top: 40%;
+  
+}
+.saint, img{
+  border-radius: 20px;
+}
+.battle{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 30%;
+  top: 40%;
+  
+}
+.battle, img{
+  border-radius: 20px;
+}
+.gotham{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 43%;
+  top: 40%;
+  
+}
+.gotham, img{
+  border-radius: 20px;
+}
+.jedi{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 56%;
+  top: 40%;
+  
+}
+.jedi, img{
+  border-radius: 20px;
+}
+.dungeons{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 18%;
+  top: 60%;
+  
+}
+.dungeons, img{
+  border-radius: 20px;
+}
+.sky{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 30%;
+  top: 60%;
+  
+}
+.sky, img{
+  border-radius: 20px;
+}
+.forza{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 43%;
+  top: 60%;
+  
+}
+.forza, img{
+  border-radius: 20px;
+}
+.sea{
+  width:25%;
+  height: auto;
+  position:absolute;
+  left: 56%;
+  top: 60%;
+  
+}
+.sea, img{
+  border-radius: 20px;
+}
+.flightp{
+  position: absolute;
+  left: 30%;
+  top: 33%;
+  }
+  .orip{
+    position: absolute;
+  left: 42%;
+  top: 33%;
+  }
+  .minep{
+    position: absolute;
+  left: 55%;
+  top: 33%;
+  }
+  .halop{
+    position: absolute;
+  left: 68%;
+  top: 33%;
+  }
+  .saintp{
+    position: absolute;
+  left: 30%;
+  top: 53%;
+  }
+  .battlep{
+    position: absolute;
+  left: 42%;
+  top: 53%;
+  }
+  .gothamp{
+    position: absolute;
+  left: 55%;
+  top: 53%;
+  }
+  .jedip{
+    position: absolute;
+  left: 68%;
+  top: 53%;
+  }
+  .dungeonp{
+    position: absolute;
+  left: 30%;
+  top: 73%;
+  }
+  .skyp{
+    position: absolute;
+  left: 42%;
+  top: 73%;
+  }
+  .forzap{
+    position: absolute;
+  left: 55%;
+  top: 73%;
+  }
+  .seap{
+    position: absolute;
+  left: 68%;
+  top: 73%;
+  }
+  .wild{
+    width:25%;
+    height: auto;
+    position:absolute;
+    left: 18%;
+    top: 20%;
+    
+  }
+  .wild, img{
+    border-radius: 20px;
+  }
+  .kart{
+    width:25%;
+    height: auto;
+    position:absolute;
+    left: 30%;
+    top: 20%;
+    
+  }
+  .kart, img{
+    border-radius: 20px;
+  }
+  .luigi{
+    width:25%;
+    height: auto;
+    position:absolute;
+    left: 43%;
+    top: 20%;
+    
+  }
+  .luigi, img{
+    border-radius: 20px;
+  }
+  .kirby{
+    width:25%;
+    height: auto;
+    position:absolute;
+    left: 56%;
+    top: 20%;
+    
+  }
+  .kirby, img{
+    border-radius: 20px;
+  }
+  .sw{
+    width:25%;
+    height: auto;
+    position:absolute;
+    left: 18%;
+    top: 40%;
+    
+  }
+  .sw, img{
+    border-radius: 20px;
+  }
+  .ac{
+    width:25%;
+    height: auto;
+    position:absolute;
+    left: 30%;
+    top: 40%;
+    
+  }
+  .ac, img{
+    border-radius: 20px;
+  }
+  .super{
+    width:25%;
+    height: auto;
+    position:absolute;
+    left: 43%;
+    top: 40%;
+    
+  }
+  .super, img{
+    border-radius: 20px;
+  }
+  .ody{
+    width:25%;
+    height: auto;
+    position:absolute;
+    left: 56%;
+    top: 40%;
+    
+  }
+  .ody, img{
+    border-radius: 20px;
+  }
+  .arceus{
+    width:25%;
+    height: auto;
+    position:absolute;
+    left: 18%;
+    top: 60%;
+    
+  }
+  .arceus, img{
+    border-radius: 20px;
+  }
+  .splat{
+    width:25%;
+    height: auto;
+    position:absolute;
+    left: 30%;
+    top: 60%;
+    
+  }
+  .splat, img{
+    border-radius: 20px;
+  }
+  .sports{
+    width:25%;
+    height: auto;
+    position:absolute;
+    left: 43%;
+    top: 60%;
+    
+  }
+  .sports, img{
+    border-radius: 20px;
+  }
+  .dread{
+    width:25%;
+    height: auto;
+    position:absolute;
+    left: 56%;
+    top: 60%;
+    
+  }
+  .dread, img{
+    border-radius: 20px;
+  }
+  .wildp{
+    position: absolute;
+    left: 30%;
+    top: 33%;
+    }
+    .kartp{
+      position: absolute;
+    left: 42%;
+    top: 33%;
+    }
+    .luigip{
+      position: absolute;
+    left: 55%;
+    top: 33%;
+    }
+    .kirbyp{
+      position: absolute;
+    left: 68%;
+    top: 33%;
+    }
+    .swp{
+      position: absolute;
+    left: 30%;
+    top: 53%;
+    }
+    .animalp{
+      position: absolute;
+    left: 42%;
+    top: 53%;
+    }
+    .smashp{
+      position: absolute;
+    left: 55%;
+    top: 53%;
+    }
+    .odyp{
+      position: absolute;
+    left: 68%;
+    top: 53%;
+    }
+    .arceusp{
+      position: absolute;
+    left: 30%;
+    top: 73%;
+    }
+    .splatp{
+      position: absolute;
+    left: 42%;
+    top: 73%;
+    }
+    .sportsp{
+      position: absolute;
+    left: 55%;
+    top: 73%;
+    }
+    .dreadp{
+      position: absolute;
+    left: 68%;
+    top: 73%;
+    }
+    h2{
+      font-family: christmas;
+      color: #BA1B1D;
+      font-size: 90px;
+      width: 935px;
+      border-style: solid;
+      border-color: #9BC53D;
+      background-color: #9BC53D;
+      text-align: center;
+      height: 110px;
+      border-radius: 30px;
+    }
+    h3{
+      font-family: christmas;
+      color: #BA1B1D;
+      font-size: 90px;
+      width: 935px;
+      border-style: solid;
+      border-color: #9BC53D;
+      background-color: #9BC53D;
+      text-align: center;
+      height: 110px;
+      border-radius: 30px;
+    }
+    h2:hover{
+      color: #801315;
+      border-color: #6b882c;
+      background-color: #6b882c;
+    }
+    .promotion{
+      position: absolute;
+      left: 25%;
+      top: 13%;
+    }
+    .home{
+      position: absolute;
+      left: 25%;
+      top:23%;
+    }
+    .no{
+      width:25%;
+      height: auto;
+      position:absolute;
+      left: 18%;
+      top: 40%;
+      
+    }
+    .no, img{
+      border-radius: 20px;
+    }
+    .knight{
+      width:25%;
+      height: auto;
+      position:absolute;
+      left: 18%;
+      top: 65%;
+      
+    }
+    .knight, img{
+      border-radius: 20px;
+    }
+    .nautica{
+      width:25%;
+      height: auto;
+      position:absolute;
+      left: 30%;
+      top: 40%;
+      
+    }
+    .nautica, img{
+      border-radius: 20px;
+    }
+    .doom{
+      width:25%;
+      height: auto;
+      position:absolute;
+      left: 43%;
+      top: 40%;
+      
+    }
+    .doom, img{
+      border-radius: 20px;
+    }
+    .dogs{
+      width:25%;
+      height: auto;
+      position:absolute;
+      left: 56%;
+      top: 40%;
+      
+    }
+    .dogs, img{
+      border-radius: 20px;
+    }
+    .punk{
+      width:25%;
+      height: auto;
+      position:absolute;
+      left: 30%;
+      top: 65%;
+      
+    }
+    .punk, img{
+      border-radius: 20px;
+    }
+    .rust{
+      width:25%;
+      height: auto;
+      position:absolute;
+      left: 43%;
+      top: 65%;
+      
+    }
+    .rust, img{
+      border-radius: 20px;
+    }
+    .wire{
+      width:25%;
+      height: auto;
+      position:absolute;
+      left: 56%;
+      top: 65%;
+      
+    }
+    .wire, img{
+      border-radius: 20px;
+    }
+    .nope{
+      position: absolute;
+    left: 30%;
+    top: 53%;
+    }
+    .bauble{
+      width: 100px;
+      position: absolute;
+      left: 70%;
+      top:20%;
+    }
+    .bauble2{
+      width: 100px;
+      position: absolute;
+      left:25%;
+      top:20%;
+    }
+    .bauble3{
+      width: 100px;
+      position: absolute;
+      left: 70%;
+      top:28%;
+    }
+    .bauble4{
+      width: 100px;
+      position: absolute;
+      left: 25%;
+      top:28%;
+    }
+    .nauticap{
+      position: absolute;
+    left: 42%;
+    top: 53%;
+    }
+    .doomp{
+      position: absolute;
+    left: 55%;
+    top: 53%;
+    }
+    .dogsp{
+      position: absolute;
+    left: 68%;
+    top: 53%;
+    }
+    .knightp{
+      position: absolute;
+    left: 30%;
+    top: 78%;
+    }
+    .punkp{
+      position: absolute;
+    left: 42%;
+    top: 78%;
+    }
+    .rusty{
+      position: absolute;
+    left: 55%;
+    top: 78%;
+    }
+    .wirep{
+      position: absolute;
+    left: 68%;
+    top: 78%;
+    }
+    .about{
+      position: absolute;
+      left: 96%;
+      top: 93%;
+      width: 50px;
+      height: auto;
+    }
+    .snow img{
+      width: 50px;
+      animation: snow 7s linear infinite;
+  }
+  .snow{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      position: absolute;
+      bottom: -70px;
+  }
+  
+  @keyframes snow{
+      0%{
+          transform: translateY(-100vh);
+          opacity: 0;
+      }
+      50%{
+          
+          opacity: 1;
+      }
+      70%{
+          
+          opacity: 1;
+      }
+      100%{
+          transform: translateY(0);
+          opacity: 0;
+      }
+  }
+  
+  .snow img:nth-child(1){
+      animation-delay: 2s;
+      left:5%;
+      width: 100px;
+  }
+  .snow img:nth-child(2){
+      animation-delay: 1s;
+      width: 75px;
+      left: 15%;
+  }
+  .snow img:nth-child(3){
+      animation-delay: 3s;
+      width: 90px;
+      left: 30%;
+  }
+  .snow img:nth-child(4){
+      animation-delay: 4.5s;
+      left: 45%;
+      width: 95px;
+  }
+  .snow img:nth-child(5){
+      animation-delay: 3s;
+      left:60%;
+      width: 90px;
+  }
+  .snow img:nth-child(6){
+      animation-delay: 6s;
+      width: 80px;
+      left: 68%
+  }
+  .snow img:nth-child(7){
+      animation-delay: 7s;
+      width: 100px;
+      left:90%;
+  }
+  .video{
+    position: absolute;
+    left:30.8%;
+    top: 48%;
+  }
+  iframe{
+    border-radius: 25px;
+  }
